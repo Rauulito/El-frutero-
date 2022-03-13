@@ -234,4 +234,3 @@ class JMPEstadisticas:
         print("-----------------------------------------\n")
         print("Generación de las gráficas...")
         self.visualizacion(media,mediana[0],cuartiles[0],cuartiles[1],cuartiles[2])
-        print(" ")
