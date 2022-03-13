@@ -1,3 +1,4 @@
+
 #-----------------------------------------------------------------------------------------
 # @Autor: Aurélien Vannieuwenhuyze
 # @Empresa: Junior Makers Place
@@ -34,3 +35,4 @@ observaciones = pnd.DataFrame({'Opinion':np.array([5,4,3,2,1,0]),
 stats = jmp.JMPEstadisticas(observaciones['Opinion', 'Cantidad de Votantes'])
 #stats = JMPEstadisticas(observaciones)
 stats.analisisCaracteristica()
+print(" ")
