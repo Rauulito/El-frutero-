@@ -25,10 +25,10 @@ import JMPEstadisticas as jmp
 import numpy as np
 
 #--- CREACION DE UN DATAFRAME ----
-observaciones = pnd.DataFrame({'Opinion':np.array([5,4,3,2,1,0]),
-                                'Cantidad de Votantes':np.array([40,99,145,133,96,40])
-                                })
-
+observaciones = pnd.DataFrame({'Frutas':np.array([])})
+for i in range(150,250):
+    observaciones.add(i)
+#Ponemos estos datos porque creemos que son los mas indicados para este ejercicio
 
 
 #--- ANALISIS DE UNA CARACTERISTICA ---
